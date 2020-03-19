@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Authors
   create: all
-  match: "**/*"
+  match: authors/**/*
   templates:
   - author
 - type: directory
