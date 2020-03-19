@@ -1,13 +1,13 @@
 <p align="center">
   <img src="https://file-xidfrcjkaq.now.sh/" height="240">
-  <h3 align="center">Gridsome x Forestry</h3>
-  <p align="center">A starter-kit by Nichlas W. Andersen<p>
+  <h3 align="center">Dad Projects</h3>
+  <p align="center">Build with Gridsome x Forestry<p>
 </p>
 
 <p align="center">
-
+  <a href="https://app.netlify.com/sites/dadprojects/deploys"><img src="https://api.netlify.com/api/v1/badges/8c500ab7-560a-441b-a036-90401742c6f1/deploy-status" alt="Netlify Status"></a>
 </p>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8c500ab7-560a-441b-a036-90401742c6f1/deploy-status)](https://app.netlify.com/sites/dadprojects/deploys)
+
 
 ## Development
 
