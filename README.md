@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8c500ab7-560a-441b-a036-90401742c6f1/deploy-status)](https://app.netlify.com/sites/dadprojects/deploys)
-</p>
 
+</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c500ab7-560a-441b-a036-90401742c6f1/deploy-status)](https://app.netlify.com/sites/dadprojects/deploys)
 
 ## Development
 
