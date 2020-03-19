@@ -1,8 +1,8 @@
 {
   "footer": "Copyright &copy; 2019",
-  "dark_mode": false,
-  "site_name": "Nichlas W. Andersen",
-  "site_description": "Creative technologist",
-  "hero_title": "Simplicity. Aesthetics. Value.",
-  "hero_subtitle": "Hi there, I'm an independent Digital Designer &amp; Art Director focused on digital design for brands that like to have fun."
+  "dark_mode": true,
+  "site_name": "Dad Projects",
+  "site_description": "Creative projects",
+  "hero_title": "Tech. Learning Path. DIY. Education.",
+  "hero_subtitle": "👋Vous trouverez ici des articles autour de la tech, des learning path, de l'éducation et des tutorials. "
 }
