@@ -9,6 +9,7 @@
                         class="logo"
                     />
                 </g-link>
+                <span v-html="settings.site_name" />
             </div>
             <nav class="nav right">
                 <g-link class="nav__link" to="/journal">Journal</g-link>
@@ -51,7 +52,8 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 1.5rem;
+    height: 3rem;
+    fill: #ffffff;
 }
 .site-name {
     font-size: 0.9rem;
