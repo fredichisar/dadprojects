@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/gridsome-forestry/deploys"><img src="https://api.netlify.com/api/v1/badges/21965bf1-8f46-4201-afe9-98896cba865e/deploy-status" alt="Netlify Status"></a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c500ab7-560a-441b-a036-90401742c6f1/deploy-status)](https://app.netlify.com/sites/dadprojects/deploys)
 </p>
 
 
