@@ -1,7 +1,7 @@
 ---
 title: Fred
-bio: 'Papa (geek) toujours à l''affut de tutos ou d''idées pour apprendre, faire apprendre
-  et partager. '
+bio: 'Papa (geek) à l''affut de nouvelles technos, de tutos, pour apprendre, faire
+  apprendre et partager. '
 avatar: "/uploads/man.png"
 twitter: ''
 
