@@ -64,7 +64,7 @@ export default {
         },
         {
           name: "twitter:card",
-          content: this.$page.post.image ? "summary_large_image" : "summary",
+          content: this.$page.post.thumbnail || "" // Add Logo
         },
         {
           name: "twitter:creator",
@@ -76,7 +76,7 @@ export default {
         },
         {
           property: "og:image",
-          content: this.$page.post.image || ""
+          content: this.$page.post.thumbnail || "" // Add Logo 
         }
       ],
       bodyAttrs: {
