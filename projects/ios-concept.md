@@ -6,7 +6,7 @@ categories:
 - photography
 - yellow
 project_bg_color: ''
-project_fg_color: ''
+project_fg_color: "#F2E20B"
 
 ---
 ![](/uploads/markus-spiske-516263-unsplash.jpg)
