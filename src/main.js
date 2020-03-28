@@ -5,6 +5,7 @@ import "@/assets/code-highlight.css"
 
 export default function(Vue, { head }) {
   Vue.component("Layout", DefaultLayout);
+  head.htmlAttrs = { lang: 'fr' }
   head.bodyAttrs = {
     class: settings.dark_mode ? "dark" : ""
   };
