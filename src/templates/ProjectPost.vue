@@ -53,6 +53,32 @@ export default {
   metaInfo () {
     return {
       title: this.$page.post.title,
+      meta: [
+        {
+          name: "description",
+          content: this.$page.post.excerpt
+        },
+        {
+          property: "og:title",
+          content: this.$page.post.title
+        },
+        {
+          name: "twitter:card",
+          content: this.$page.post.image ? "summary_large_image" : "summary",
+        },
+        {
+          name: "twitter:creator",
+          content: "@drewtown_chi"
+        },
+        {
+          property: "og:description",
+          cotent: this.$page.post.excerpt
+        },
+        {
+          property: "og:image",
+          content: this.$page.post.image || ""
+        }
+      ],
       bodyAttrs: {
         style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
       }
