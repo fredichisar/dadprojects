@@ -52,6 +52,27 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: 'gridsome-plugin-robots-txt',
+      options: {
+        host: 'https://dadprojects.fr',
+        sitemap: 'https://dadprojects.fr/sitemap.xml',
+        policy: [
+          {
+            userAgent: "Googlebot",
+            allow: "/",
+            disallow: "/search",
+            crawlDelay: 2
+          },
+          {
+            userAgent: "*",
+            allow: "/",
+            disallow: "/search",
+            crawlDelay: 10
+          }
+        ]
+      }
     }
   ],
   transformers: {
