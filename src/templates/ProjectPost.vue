@@ -42,6 +42,8 @@ query ProjectPost ($path: String!) {
     date (format: "YYYY")
     content
     categories
+    thumbnail
+    excerpt 
     project_bg_color
     project_fg_color
   }
@@ -64,7 +66,7 @@ export default {
         },
         {
           name: "twitter:card",
-          content: this.$page.post.thumbnail || "" // Add Logo
+          content: 'https://dadprojects.fr'+ this.$page.post.thumbnail.src || "" // Add Logo
         },
         {
           name: "twitter:creator",
@@ -76,7 +78,7 @@ export default {
         },
         {
           property: "og:image",
-          content: this.$page.post.thumbnail || "" // Add Logo 
+          content: 'https://dadprojects.fr'+ this.$page.post.thumbnail.src || "" // Add Logo 
         }
       ],
       bodyAttrs: {

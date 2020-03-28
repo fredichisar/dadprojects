@@ -73,6 +73,12 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-162038333-1'
+      }
     }
   ],
   transformers: {
