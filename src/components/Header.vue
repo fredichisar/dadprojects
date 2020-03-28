@@ -1,5 +1,5 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
+    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/'), dark: settings.dark_mode}">
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
@@ -8,8 +8,8 @@
                         :alt="settings.site_name" 
                         class="logo"
                     />
+                    <span v-html="settings.site_name" />
                 </g-link>
-                <span v-html="settings.site_name" />
             </div>
             <nav class="nav right">
                 <g-link class="nav__link" to="/journal">Journal</g-link>
@@ -41,6 +41,9 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
+}
+.header.sticky.dark {
+    background-color: #000000 ;
 }
 .header > .container {
     display: flex;
