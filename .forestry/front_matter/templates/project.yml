@@ -41,6 +41,18 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: author
+  type: select
+  default: authors/fred.md
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: authors-9be4d769-1e00-41a0-872e-4e3991d8ef6e
+      file: 
+      path: 
+  label: Author
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
