@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: data/mentions_legales.json
-  label: Mentions légales
-  match: "**/*"
-  read_only: false
 - type: directory
   path: authors
   label: Authors
@@ -33,6 +28,9 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
+- type: document
+  path: data/mentions_legales.json
+  label: Mentions légales
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
