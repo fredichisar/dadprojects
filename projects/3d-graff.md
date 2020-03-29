@@ -7,6 +7,8 @@ categories:
 - yellow
 project_bg_color: ''
 project_fg_color: "#FDC70D"
+excerpt: Extrait du post de la glace
+author: authors/fred.md
 
 ---
 ![](/uploads/ian-dooley-281897-unsplash.jpg)
