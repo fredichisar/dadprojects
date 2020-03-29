@@ -7,3 +7,5 @@ fields:
   config:
     required: true
   label: Titre
+pages:
+- pages/mentions-légales.md
