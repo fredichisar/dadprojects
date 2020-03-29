@@ -15,7 +15,7 @@ sections:
   path: authors
   label: Authors
   create: documents
-  match: authors/**/*
+  match: "**/*"
   templates:
   - author
 - type: directory
