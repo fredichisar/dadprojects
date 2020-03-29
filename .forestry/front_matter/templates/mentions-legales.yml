@@ -16,3 +16,4 @@ fields:
     schema:
       format: html-blocks
   label: Contenu
+  hidden: true
