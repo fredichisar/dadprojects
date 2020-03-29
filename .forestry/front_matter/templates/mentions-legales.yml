@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Contenu
+pages:
+- data/mentions_legales.json
