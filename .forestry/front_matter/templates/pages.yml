@@ -9,3 +9,4 @@ fields:
   label: Titre
 pages:
 - pages/mentions-légales.md
+- pages/page-test.md
