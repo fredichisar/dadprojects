@@ -2,19 +2,17 @@
 label: Mentions légales
 hide_body: false
 fields:
-- name: titre
+- name: title
   type: text
   config:
     required: true
   label: Titre
-- name: contenu
+- name: content
   type: textarea
   default: ''
   config:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Contenu
-pages:
-- data/mentions_legales.json
