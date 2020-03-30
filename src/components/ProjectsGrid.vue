@@ -4,7 +4,7 @@
             <g-link :to="item.node.path" class="project-link">
             <g-image
                 :src="item.node.thumbnail"
-                :alt="item.node.title"
+                :alt="Dadproject"
                 class="thumbnail"
             />
             <h3 class="project-title">{{ item.node.title }}</h3>
