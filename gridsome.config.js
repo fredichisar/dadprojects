@@ -33,6 +33,18 @@ module.exports = {
       }
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "pages/**/*.md",
+        typeName: "PagePost",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
@@ -85,5 +97,8 @@ module.exports = {
     remark: {
       plugins: ["@gridsome/remark-prismjs"]
     }
+  },
+  templates: {
+    PagePost: '/:title'
   }
 };

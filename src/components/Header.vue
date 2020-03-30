@@ -2,6 +2,7 @@
     <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/'), dark: settings.dark_mode}">
       <nav id="overlay" v-if="!isHidden">
           <ul>
+          <li><g-link to="/">Accueil</g-link></li>
           <li><g-link to="/projets">Projets</g-link></li>
           <li><g-link to="/journal">Journal</g-link></li>
           <li><g-link to="/contact">Say Hi!</g-link></li>
@@ -50,7 +51,7 @@ export default {
     width: 100%;
 }
 .header.sticky.dark {
-    background-color: #000000 ;
+  background-color: rgb(39, 39, 41);
 }
 .header > .container {
     display: flex;

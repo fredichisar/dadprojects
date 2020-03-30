@@ -56,9 +56,6 @@ export default {
 </script>
 
 <style scoped>
-.journal-container {
-  max-width: 840px;
-}
 .journal-header {
   padding: 2rem 0 4rem 0;
 }

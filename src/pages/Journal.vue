@@ -45,9 +45,6 @@ export default {
 </script>
 
 <style scoped>
-.container.journal {
-  max-width: 720px;
-}
 .journal-hero {
   padding: 4rem 0;
   text-align: center;
