@@ -3945,7 +3945,7 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-generate-robotstxt@^8.0.0, generate-robotstxt@^8.0.1:
+generate-robotstxt@^8.0.0:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/generate-robotstxt/-/generate-robotstxt-8.0.2.tgz#7dac489cf1afacfd539346b7d6349da6dec79276"
   integrity sha512-i81fuxYz+4uJZy4AO0tKWVoHxDjC6JTkdUJVqG66C8Qn8BgXSWp7rpyl960za2N3u1xupjd6HOGioDNzBfEmLQ==
@@ -4241,14 +4241,6 @@ gridsome-plugin-robots-txt@^1.0.2:
   dependencies:
     generate-robotstxt "^8.0.0"
 
-gridsome-plugin-robots@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-robots/-/gridsome-plugin-robots-0.2.1.tgz#b4aa55f2959bbaa456acefaebed103c2340fe036"
-  integrity sha512-g3F1nOxNdUrmvL7XVyUQXcmLYqYZtoENY1UktqgsJJtdxQZQcJE/nPUBPT6xgjDaNovaclK6Dy7RLYZC7AoUFg==
-  dependencies:
-    "@babel/runtime" "^7.8.4"
-    generate-robotstxt "^8.0.1"
-
 gridsome@^0.7.13:
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.13.tgz#7b711b34f9abbdb645948048773ce80381d78b6e"
@@ -4539,9 +4531,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hsl-regex@^1.0.0:
   version "1.0.0"
