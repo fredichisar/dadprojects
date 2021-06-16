@@ -3945,7 +3945,7 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-generate-robotstxt@^8.0.0, generate-robotstxt@^8.0.1:
+generate-robotstxt@^8.0.0:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/generate-robotstxt/-/generate-robotstxt-8.0.2.tgz#7dac489cf1afacfd539346b7d6349da6dec79276"
   integrity sha512-i81fuxYz+4uJZy4AO0tKWVoHxDjC6JTkdUJVqG66C8Qn8BgXSWp7rpyl960za2N3u1xupjd6HOGioDNzBfEmLQ==
@@ -4240,14 +4240,6 @@ gridsome-plugin-robots-txt@^1.0.2:
   integrity sha512-tJw0kylp4UuUKAajjSnJeUIVUKOn3f7zUC035nNkNpI98rV6a+iQs92qKJ9/honq2IzCjYIWPhxsAMrhzln+WA==
   dependencies:
     generate-robotstxt "^8.0.0"
-
-gridsome-plugin-robots@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-robots/-/gridsome-plugin-robots-0.2.1.tgz#b4aa55f2959bbaa456acefaebed103c2340fe036"
-  integrity sha512-g3F1nOxNdUrmvL7XVyUQXcmLYqYZtoENY1UktqgsJJtdxQZQcJE/nPUBPT6xgjDaNovaclK6Dy7RLYZC7AoUFg==
-  dependencies:
-    "@babel/runtime" "^7.8.4"
-    generate-robotstxt "^8.0.1"
 
 gridsome@^0.7.13:
   version "0.7.13"
@@ -7161,9 +7153,9 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.0.3:
   integrity sha512-N7h4pG+Nnu5BEIzyeaaIYWs0LI5XC40OrRh5L60z0QjFsqGWcHcbkBvpe1WYpcIS9yQ8sOi/vIPt1ejQCrMVrg==
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.27, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.27"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
-  integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
