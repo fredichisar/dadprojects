@@ -3945,7 +3945,7 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-generate-robotstxt@^8.0.0, generate-robotstxt@^8.0.1:
+generate-robotstxt@^8.0.0:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/generate-robotstxt/-/generate-robotstxt-8.0.2.tgz#7dac489cf1afacfd539346b7d6349da6dec79276"
   integrity sha512-i81fuxYz+4uJZy4AO0tKWVoHxDjC6JTkdUJVqG66C8Qn8BgXSWp7rpyl960za2N3u1xupjd6HOGioDNzBfEmLQ==
@@ -4240,14 +4240,6 @@ gridsome-plugin-robots-txt@^1.0.2:
   integrity sha512-tJw0kylp4UuUKAajjSnJeUIVUKOn3f7zUC035nNkNpI98rV6a+iQs92qKJ9/honq2IzCjYIWPhxsAMrhzln+WA==
   dependencies:
     generate-robotstxt "^8.0.0"
-
-gridsome-plugin-robots@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-robots/-/gridsome-plugin-robots-0.2.1.tgz#b4aa55f2959bbaa456acefaebed103c2340fe036"
-  integrity sha512-g3F1nOxNdUrmvL7XVyUQXcmLYqYZtoENY1UktqgsJJtdxQZQcJE/nPUBPT6xgjDaNovaclK6Dy7RLYZC7AoUFg==
-  dependencies:
-    "@babel/runtime" "^7.8.4"
-    generate-robotstxt "^8.0.1"
 
 gridsome@^0.7.13:
   version "0.7.13"
@@ -6695,9 +6687,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
